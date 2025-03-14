@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    background-color: rgb(74, 74, 74);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.navbar ul{
+    list-style-type:none;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+} 
+.navbar a{
+    text-decoration:none;
+    color:white;
+    padding:15px;
+    padding-right:30px;
+    display:block;
+    align-items: center;
+}
+.navbar a:hover{
+    background-color:red;
+}
+.navbar li{
+    float:right;
+}
+.Product{
+    background-color: rgb(39, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 40px;
+}
+.rog{
+    height: 500px;
+    width: 700px;
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.7); 
+}
+.detail{
+padding-left: 20px;
+}
+.detail li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Review {
+    background-color: #fff;
+    color:black;
+    padding: 30px 20px;
+    text-align: center;
+}
+.review-card{
+    background-color: rgb(221, 219, 219);
+    color: black;
+    border: 2px solid #333;
+    padding:20px;
+    margin: 10px;
+    border-radius: 10px;   
+}
+.FAQ{
+    background-color:rgb(221, 219, 219);
+    padding:30px;
+    color:black;
+
+}
+.FAQ h2{
+    font-size:34px ;
+    text-align: center;
+}
+.Contact{
+    background-color: rgb(39, 36, 36);
+    padding:10px
+}
+.Contact {
+    background-color: #1A1A1A;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.Contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #FF0000;
+}
+
+.Contact div {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #222222; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.5);
+}
+
+.Contact h4 {
+    font-size: 20px;
+    color: #FF4C4C; /* Softer red for subheadings */
+    margin-bottom: 10px;
+}
+
+.Contact p {
+    font-size: 18px;
+    color: #CCCCCC; /* Light gray text */
+}
+
+.Contact p:hover {
+    color: #FF0000; /* Red hover effect */
+    transition: 0.3s ease-in-out;
+}
+footer{
+    text-align: center;
+}
