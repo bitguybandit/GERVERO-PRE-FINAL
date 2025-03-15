@@ -99,17 +99,17 @@ padding-left: 20px;
 
 .Contact h4 {
     font-size: 20px;
-    color: #FF4C4C; /* Softer red for subheadings */
+    color: #FF4C4C; 
     margin-bottom: 10px;
 }
 
 .Contact p {
     font-size: 18px;
-    color: #CCCCCC; /* Light gray text */
+    color: #CCCCCC;
 }
 
 .Contact p:hover {
-    color: #FF0000; /* Red hover effect */
+    color: #FF0000; 
     transition: 0.3s ease-in-out;
 }
 footer{
